@@ -7,3 +7,6 @@ for string in sentences: #pour chaque string du tableau sentences,
         print (string + " -> TL;DR") #on imprime la string + "TL;DR"
     else: #autrement
         print (string + " -> ok") #on imprime la string + "ok"
+
+
+sentences = "HONDA 500 FOREMAN POWER STR. NEW 2015 !! SALE", "2015 Honda FourTrax Foreman 4x4 ES (TRX500FE1F) Work/Utility Black", "2015 Honda FourTrax Foreman 4x4 ES EPS (TRX500FE2F) Work/Utility Red", "2015 V-STAR 1300 TOURER!!! JUST PURCHASED YAMAHA FACTORY SALE!!!"
