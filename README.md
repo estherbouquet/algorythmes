@@ -8,7 +8,7 @@ This is a work-in-progress project.
 The script currently works with python 3.6.5 and on windows 10.
 
   1) Download python from [here](https://www.python.org/downloads/). 
-  2) Double click on the .exe file and don't forget to check the box "Add Python 3.6 to PATH" during the installation process.
+  2) Double click on the .exe file and don't forget to check the box "Add Python 3.6 to PATH" before clicking on 'install'. If the box does not appear, install python and then execute the install file again and click on modify to check the box.
   3) Test the installation, by running `python` in your terminal. It should write the version of python that you are using. 
   4) Install all the dependencies needed from your terminal (on Windows, I used Windows PowerShell)
    - [ntlk](http://www.nltk.org/install.html): type `pip install ntlk` or `pip3 install nltk` (if you are using several versions of python). To test the installation, run `python` and then type `import nltk`.
