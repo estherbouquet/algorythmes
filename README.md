@@ -13,6 +13,10 @@ The script currently works with python 3.6.5 and on windows 10.
   4) Quit python with the command `quit()`
   5) install all the packages needed from your terminal:
    - [ntlk](http://www.nltk.org/install.html): `pip install ntlk` or `pip3 install nltk` if you are using several versions of python. To test the installation, run `python` and then type `import nltk`.
+   - [nltk data](http://www.nltk.org/data.html): type the commands `import nltk` and then type `nltk.download()`. This should open a new window, showing the NLTK Downloader. 
+      * In 'copora', double click on 'stopwords' to download it. (it will be used to delete all the stopwords in the titles)
+      * In 'models', download 'punkt'. (it will be used to tokenize the words contained in the titles of the ads)
+   - you should not need to import manually the other packages like `operator`, `random` and `json`.
 
 ## how to use it:
 
