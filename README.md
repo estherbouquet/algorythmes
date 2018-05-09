@@ -33,7 +33,7 @@ The script works (for now) with a database of ads in a json file.
 
 ## using fedora27
 
-```bash
+```
 sudo dnf install -y python3 python3-pip git
 git clone https://github.com/estherbouquet/craigslist-poem-generator
 cd craigslist-poem-generator/
