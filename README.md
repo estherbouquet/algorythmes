@@ -1,10 +1,11 @@
- # Craigslist poem generator
+﻿ # Craigslist poem generator
 created during a workshop with An Mertens at ESAD Saint-Étienne in April 2018
 
 This script in python3 selects random sentences from ads posted on Craigslist to create a poem in a .txt file.
 This is a work-in-progress project.
 
-## installation:
+## using windows
+### installation:
 The script currently works with python 3.6.5 and on windows 10.
 
   1) Download python from [here](https://www.python.org/downloads/). 
@@ -18,7 +19,7 @@ The script currently works with python 3.6.5 and on windows 10.
    - You should not need to import manually the other packages like `operator`, `random` and `json` because they are here in python.
    5) Quit the python interpreter with the command `quit()`
 
-## how to use it:
+### how to use it:
 
 The script works (for now) with a database of ads in a json file. 
 * You can create a new database by running the `index.js` file which will create a new json file. Make sure you installed [puppeteer](https://github.com/GoogleChrome/puppeteer) before and that you are running one of the last version of nodejs.
@@ -29,6 +30,17 @@ The script works (for now) with a database of ads in a json file.
 3) From your terminal, move into the folder which contains `craigslist-poem-generator.py` (using `cd`).
 4) Run the file from your terminal typing the command: `python craigslist-poem-generator.py`.
 5) Find your new generated poem at the end of the already existing poems in `testfile.txt`.
+
+## using fedora27
+
+`sudo dnf install -y python3 python3-pip git
+git clone https://github.com/estherbouquet/craigslist-poem-generator
+cd craigslist-poem-generator/
+pip3 install --user nltk
+echo "import nltk; nltk.download()"|python3 
+# Choisir stopwords dans Copora et Punk dans Models puis fermer la fenetre
+cd craigslist-poem-generator/
+python3 craigslist-poem-generator.py`
 
 ## to-do:
 - [ ] Create a python script instead of the current one in nodejs.
