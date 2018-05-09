@@ -49,4 +49,4 @@ python3 craigslist-poem-generator.py
 - [ ] Add additional tags like `postid`, `price`, `location` and `posted on`.
 - [ ] Add a prompt/feature to enter one or several keywords to search for instead of having a fixed url in the script.
 - [ ] Selecting the two or three most recurring words in the titles instead of just one.
-- [ ] Create a script that exports the poem into a pdf file with a nice display.
+- [ ] Create a script that exports the poem into a pdf file with the right layout.
