@@ -39,7 +39,7 @@ git clone https://github.com/estherbouquet/craigslist-poem-generator
 cd craigslist-poem-generator/
 pip3 install --user nltk
 echo "import nltk; nltk.download()"|python3
-# Choisir stopwords dans Copora et Punk dans Models puis fermer la fenetre
+# Choose 'stopwords' in 'Copora' and 'punk' in 'Models' then close the window
 cd craigslist-poem-generator/
 python3 craigslist-poem-generator.py
 ```
