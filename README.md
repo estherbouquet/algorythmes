@@ -33,14 +33,14 @@ The script works (for now) with a database of ads in a json file.
 
 ## using fedora27
 
-`sudo dnf install -y python3 python3-pip git
-git clone https://github.com/estherbouquet/craigslist-poem-generator
-cd craigslist-poem-generator/
-pip3 install --user nltk
-echo "import nltk; nltk.download()"|python3 
-# Choisir stopwords dans Copora et Punk dans Models puis fermer la fenetre
-cd craigslist-poem-generator/
-python3 craigslist-poem-generator.py`
+`sudo dnf install -y python3 python3-pip git`
+`git clone https://github.com/estherbouquet/craigslist-poem-generator`
+`cd craigslist-poem-generator/`
+`pip3 install --user nltk`
+`echo "import nltk; nltk.download()"|python3 `
+`# Choisir stopwords dans Copora et Punk dans Models puis fermer la fenetre`
+`cd craigslist-poem-generator/`
+`python3 craigslist-poem-generator.py`
 
 ## to-do:
 - [ ] Create a python script instead of the current one in nodejs.
