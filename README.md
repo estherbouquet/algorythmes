@@ -4,7 +4,7 @@ created during a workshop with An Mertens at ESAD Saint-Étienne in April 2018
 This script in python3 selects random sentences from ads posted on Craigslist to create a poem in a .txt file.
 This is a work-in-progress project.
 
-## using windows
+## using windows 10
 ### installation:
 The script currently works with python 3.6.5 and on windows 10.
 
@@ -31,7 +31,7 @@ The script works (for now) with a database of ads in a json file.
 4) Run the file from your terminal typing the command: `python craigslist-poem-generator.py`.
 5) Find your new generated poem at the end of the already existing poems in `testfile.txt`.
 
-## using fedora27
+## using fedora 27
 
 ```
 sudo dnf install -y python3 python3-pip git
