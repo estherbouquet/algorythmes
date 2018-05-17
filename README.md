@@ -61,6 +61,7 @@ sudo dnf install -y nodejs npm
 npm install puppeteer
 node index.js
 ```
+Note: you may have to download first chromium and then install ```puppeteer```.
 
 ## to-do:
 - [ ] Create a python script instead of the current one in nodejs.
