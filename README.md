@@ -39,10 +39,21 @@ git clone https://github.com/estherbouquet/craigslist-poem-generator
 cd craigslist-poem-generator/
 pip3 install --user nltk
 echo "import nltk; nltk.download()"|python3
-# Choose 'stopwords' in 'Copora' and 'punk' in 'Models' then close the window
+# Choose 'stopwords' and 'punkt' in the list and then close the window
 cd craigslist-poem-generator/
 python3 craigslist-poem-generator.py
 ```
+
+Note 1: the package ```python3-pip``` may not install itself automatically/correctly. You may have to check the version of pip3 in ```usr/bin``` and then type in your terminal ```pip-3.x install --user nltk```. You will then be asked if you want to install the package ```python3-pip``` which provides ```pip-3.6``` and this should work, installing then nltk.
+
+Note 2: the command ```echo "import nltk; nltk.download()"|python3``` may not work neither. You can manually install the packages by running ```python3``` and then writing in the prompt
+```
+import nltk;
+nltk.download()
+```
+For the prompt ```Downloader>```, type ```d``` and press enter, and for ```Identifier>```, type ```stopwords``` and press enter. 
+Do the exact same thing for ```punkt```.
+When it is done, type ```q``` to quit NLTK Downloader and then ```quit()``` to quit python3.
 
 ## to-do:
 - [ ] Create a python script instead of the current one in nodejs.
