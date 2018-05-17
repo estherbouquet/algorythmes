@@ -35,6 +35,7 @@ The script works (for now) with a database of ads in a json file.
 
 ```
 sudo dnf install -y python3 python3-pip git
+sudo dnf install python3-tkinter
 git clone https://github.com/estherbouquet/craigslist-poem-generator
 cd craigslist-poem-generator/
 pip3 install --user nltk
