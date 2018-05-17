@@ -55,6 +55,13 @@ For the prompt ```Downloader>```, type ```d``` and press enter, and for ```Ident
 Do the exact same thing for ```punkt```.
 When it is done, type ```q``` to quit NLTK Downloader and then ```quit()``` to quit python3.
 
+And if you want to create your own json file:
+```
+sudo dnf install -y nodejs npm
+npm install puppeteer
+node index.js
+```
+
 ## to-do:
 - [ ] Create a python script instead of the current one in nodejs.
 - [ ] Add additional tags like `postid`, `price`, `location` and `posted on`.
