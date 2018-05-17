@@ -53,9 +53,9 @@ let extract_full_collection = async (name, limit, page, url) => {
   for (let i = 0; i < limit; i++) {
     try {
       let extracted = await extract_full_page(page, url);
-      res.concat(extracted.content);
-      url = encoded.next; 
+      res = res.concat(extracted.content);
       fs.writeFileSync(name, JSON.stringify(res));
+      url = extracted.next; 
     } catch (e) {
       console.error(e);
     }
