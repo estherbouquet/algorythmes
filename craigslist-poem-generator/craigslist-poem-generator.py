@@ -7,14 +7,13 @@ from nltk.corpus import stopwords
 
 annonces = None
 
-with open('commu-1.json', 'r') as fichier:
+with open('gigs.json', 'r', encoding="utf8") as fichier:
   annonces = json.loads(fichier.read())
 
 print(annonces)
 '''
 #on crée un tableau qui contient nos annonces
 annonces = [
-
     {"body":"\n        \n            QR Code Link to This Post\n            \n        \nHi,\n\nI am seeking a middle man, (Manager or Beat Broker) to assist in placing, selling, and publishing my tracks. I also am a highly skilled Engineer and am looking for work.\n\nA few of my qualifications are:\n\n-Music Producer, Track Composer, Recording Engineer, Instrumentalist\n-15+ years of experience working with independent artists and some major artists\n-Specialize in Urban and Pop Music\n-Work remotely from my own studio and I'm Pro Tools Certified\n-Hold my College Degree in Music Production and Recording Engineering\n-Personally mentored by the late great MC Breed\n-I am the cousin of industry leader Gerry Lacoursiere (Founder/President A&M Canada)\n\nPlease see my website for more: https://www.ckrepertoire.com\n\nThank you for your time and consideration. I look forward to hearing from you.\n\n-----Kevin    ",
     "title":"-----Beat Composer/Producer Seeks Song Plugger/Manager-----",
     "url":"https://newyork.craigslist.org/brk/muc/d/beat-composer-producer-hip/6551898948.html"},
